@@ -7,7 +7,7 @@ import transform as tf
 @pytest.mark.parametrize('myinput, myref',
                          [(1, np.pi),
                           (0, 0),
-                          (1*j, 0),
+                          (1j, 0),
                           (2.1, np.pi * 2.1**2),
                           # (-5, pytest.raises(ValueError)),
                           ])
